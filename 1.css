@@ -1,1 +1,21 @@
 *{margin: 0; padding: 0;} 
+.noidung{
+	display: flex;
+	flex-wrap: wrap;
+}
+.noidung .khoianh{
+	width: 25%;
+	box-sizing: border-box;
+	padding: 5px;
+}
+.khoianh img{
+	width: 100%;
+}
+.noidung .nhandoi{
+	width: 50%;
+}
+figcaption{
+	text-align: center;
+	padding: 2px;
+	background: lightblue;
+}
